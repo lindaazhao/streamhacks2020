@@ -76,26 +76,26 @@ waste_randomizer = 0  # A random number drawn from waste_pool
 waste_widths = [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
 waste_heights = [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
 waste_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-wasteGraphics = [pygame.transform.scale(pygame.image.load('img/garb1.jpg'), (waste_widths[0], waste_heights[0]))]
+wasteGraphics = [pygame.transform.scale(pygame.image.load('img/waste/garb1.png'), (waste_widths[0], waste_heights[0]))]
 
 
-# pygame.transform.scale(pygame.image.load('img/garb2.jpg'), (waste_widths[1], waste_heights[1])),
-# pygame.transform.scale(pygame.image.load('img/garb3.jpg'), (waste_widths[2], waste_heights[2])),
-# pygame.transform.scale(pygame.image.load('img/garb4.jpg'), (waste_widths[3], waste_heights[3])),
-# pygame.transform.scale(pygame.image.load('img/garb5.jpg'), (waste_widths[4], waste_heights[4])),
-# pygame.transform.scale(pygame.image.load('img/garb6.jpg'), (waste_widths[5], waste_heights[5])),
-# pygame.transform.scale(pygame.image.load('img/garb7.jpg'), (waste_widths[6], waste_heights[6])),
-# pygame.transform.scale(pygame.image.load('img/garb8.jpg'), (waste_widths[7], waste_heights[7])),
-# pygame.transform.scale(pygame.image.load('img/garb9.jpg'), (waste_widths[8, waste_heights[8])),
-# pygame.transform.scale(pygame.image.load('img/garb10.jpg'), (waste_widths[9], waste_heights[9])),
-# pygame.transform.scale(pygame.image.load('img/garb11.jpg'), (waste_widths[10], waste_heights[10])),
-# pygame.transform.scale(pygame.image.load('img/garb12.jpg'), (waste_widths[11], waste_heights[11])),
-# pygame.transform.scale(pygame.image.load('img/garb13.jpg'), (waste_widths[12], waste_heights[12])),
-# pygame.transform.scale(pygame.image.load('img/garb14.jpg'), (waste_widths[13], waste_heights[13])),
-# pygame.transform.scale(pygame.image.load('img/garb15.jpg'), (waste_widths[14], waste_heights[14])),
-# pygame.transform.scale(pygame.image.load('img/garb16.jpg'), (waste_widths[15], waste_heights[15])),
-# pygame.transform.scale(pygame.image.load('img/garb17.jpg'), (waste_widths[16], waste_heights[16])),
-# pygame.transform.scale(pygame.image.load('img/garb18.jpg'), (waste_widths[17], waste_heights[17]))]
+# pygame.transform.scale(pygame.image.load('img/waste/garb2.jpg'), (waste_widths[1], waste_heights[1])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb3.jpg'), (waste_widths[2], waste_heights[2])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb4.jpg'), (waste_widths[3], waste_heights[3])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb5.jpg'), (waste_widths[4], waste_heights[4])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb6.jpg'), (waste_widths[5], waste_heights[5])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb7.jpg'), (waste_widths[6], waste_heights[6])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb8.jpg'), (waste_widths[7], waste_heights[7])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb9.jpg'), (waste_widths[8, waste_heights[8])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb10.jpg'), (waste_widths[9], waste_heights[9])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb11.jpg'), (waste_widths[10], waste_heights[10])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb12.jpg'), (waste_widths[11], waste_heights[11])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb13.jpg'), (waste_widths[12], waste_heights[12])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb14.jpg'), (waste_widths[13], waste_heights[13])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb15.jpg'), (waste_widths[14], waste_heights[14])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb16.jpg'), (waste_widths[15], waste_heights[15])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb17.jpg'), (waste_widths[16], waste_heights[16])),
+# pygame.transform.scale(pygame.image.load('img/waste/garb18.jpg'), (waste_widths[17], waste_heights[17]))]
 
 # -----EVERYTHING CLOUDS-----
 class Cloud:
